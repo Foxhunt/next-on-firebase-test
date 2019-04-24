@@ -1,0 +1,53 @@
+[debug] [2019-04-24T22:29:55.955Z] ----------------------------------------------------------------------
+[debug] [2019-04-24T22:29:55.958Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Marco\Desktop\next-on-firebase-test\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-04-24T22:29:55.958Z] CLI Version:   6.7.1
+[debug] [2019-04-24T22:29:55.958Z] Platform:      win32
+[debug] [2019-04-24T22:29:55.958Z] Node Version:  v8.16.0
+[debug] [2019-04-24T22:29:55.959Z] Time:          Thu Apr 25 2019 00:29:55 GMT+0200 (Mitteleuropäische Sommerzeit)
+[debug] [2019-04-24T22:29:55.959Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-24T22:29:55.969Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-24T22:29:55.970Z] > authorizing via signed-in user
+[debug] [2019-04-24T22:29:55.970Z] [iam] checking project next-on-firebase-test for permissions ["firebase.projects.get"]
+[debug] [2019-04-24T22:29:55.972Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/next-on-firebase-test:testIamPermissions  
+
+[debug] [2019-04-24T22:29:56.387Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-24T22:29:56.390Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/next-on-firebase-test  
+ 
+[debug] [2019-04-24T22:29:57.199Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Marco\Desktop\next-on-firebase-test'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-24T22:29:57.923Z] Fetching environment
+[debug] [2019-04-24T22:29:57.925Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/433320409390:getServerAppConfig  
+ 
+[debug] [2019-04-24T22:29:57.926Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/433320409390/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-24T22:29:58.214Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-24T22:29:58.215Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-24T22:29:58.286Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist/public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-04-24T22:30:00.269Z] Parsing function triggers
+[info] [hosting] Rewriting / to http://localhost:5001/next-on-firebase-test/us-central1/index for local Function index
+[info] +  functions: index: http://localhost:5001/next-on-firebase-test/us-central1/index
+[info] +  functions: about: http://localhost:5001/next-on-firebase-test/us-central1/about
+[info] [hosting] Rewriting / to http://localhost:5001/next-on-firebase-test/us-central1/index for local Function index
+[info] [hosting] Rewriting / to http://localhost:5001/next-on-firebase-test/us-central1/index for local Function index
+[info] [hosting] Rewriting / to http://localhost:5001/next-on-firebase-test/us-central1/index for local Function index
+[info] [hosting] Rewriting / to http://localhost:5001/next-on-firebase-test/us-central1/index for local Function index
+[info] [hosting] Rewriting / to http://localhost:5001/next-on-firebase-test/us-central1/index for local Function index
+[info] [hosting] Rewriting / to http://localhost:5001/next-on-firebase-test/us-central1/index for local Function index
+[info] [hosting] Rewriting / to http://localhost:5001/next-on-firebase-test/us-central1/index for local Function index
+[info] [hosting] Rewriting /about to http://localhost:5001/next-on-firebase-test/us-central1/about for local Function about
+[info] [hosting] Rewriting /about to http://localhost:5001/next-on-firebase-test/us-central1/about for local Function about
+[info] [hosting] Rewriting /about to http://localhost:5001/next-on-firebase-test/us-central1/about for local Function about
+[info] [hosting] Rewriting /about to http://localhost:5001/next-on-firebase-test/us-central1/about for local Function about
+[info] [hosting] Rewriting /about to http://localhost:5001/next-on-firebase-test/us-central1/about for local Function about
+[info] [hosting] Rewriting /about to http://localhost:5001/next-on-firebase-test/us-central1/about for local Function about
+[info] [hosting] Rewriting /about to http://localhost:5001/next-on-firebase-test/us-central1/about for local Function about
+[info] [hosting] Rewriting /about to http://localhost:5001/next-on-firebase-test/us-central1/about for local Function about
+[info] [hosting] Rewriting /about to http://localhost:5001/next-on-firebase-test/us-central1/about for local Function about
+[info] [hosting] Rewriting /about to http://localhost:5001/next-on-firebase-test/us-central1/about for local Function about
+[info] [hosting] Rewriting /about to http://localhost:5001/next-on-firebase-test/us-central1/about for local Function about

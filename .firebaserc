@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "next-on-firebase-test",
+    "test": "next-on-firebase-test"
+  }
+}
